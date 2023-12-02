@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir un texte"
+        android:layout_marginTop="156dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/modifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="16dp"
+        android:text="Modifier"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/modifiedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modifyButton"
+        android:layout_marginTop="16dp"
+        android:textSize="28dp"
+        android:text="Résultat modifié"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modifiedText"
+        android:layout_marginTop="16dp"
+        android:text="Valider"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
